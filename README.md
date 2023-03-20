@@ -6,7 +6,7 @@ The Pet Store eCommerce is a platform dedicated to selling products and services
 
 This repository contains the HTML, CSS, and JSX components needed by the application.
 
-The Figma design for this website can be found hereÑ
+The Figma design for this website can be found here:
 - https://www.figma.com/file/0LwdD8MHOU9qYsYBQZbwv6/Pet-Store---eCommerce?node-id=0%3A1
 
 This website should responsive and it should be displayed on a PC, a tablet, and a mobile screen.
