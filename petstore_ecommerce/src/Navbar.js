@@ -1,9 +1,9 @@
+
 function Navbar() {
     return (
-        <main className = "Navbar">
+        <div className="container">
             <p>This will be the navbar</p>
-        </main>
-    );
+        </div>
+);
 }
-
 export default Navbar;
