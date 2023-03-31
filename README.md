@@ -1,5 +1,9 @@
 # CSFS1010-Assignment-1
-Repository to host the Pet Store eCommerce Project
+- Repository to host the Pet Store eCommerce Project
+
+# CSFS1010-Assignment-2
+- Add a document that describes the project structure. Refer to: [README.md](./petstore_ecommerce/mapping_components/README.md)
+
 ## Individual Final Project
 
 The Pet Store eCommerce is a platform dedicated to selling products and services for pets.
