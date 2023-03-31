@@ -31,9 +31,10 @@ This section of the website contains the following elements
 - Store logo. This element works as a "Home" button. The user will be redirected to the landing page if the user clicks on this element.
 - Main shortcuts. These are some of the main actions that a user has access to. When displayed in a Tablet breakpoint, these options should be reorganized so all of them can be properly displayed. When displayed in a Phone breakpoint, these options should be reorganized in a "hamburger menu" so there is enough room on the screen to display all the elements.
 - Shopping Cart. This element works as a link to the user's shopping cart, in other words, this displays the current user's order. When there is at least one element in the cart, the image should be updated to display the number of items in the cart.
+- Search bar. This element allows the user to search for items in the store. When typing, a drop-down list displays possible matches.
 
 ### Main Window.
-- This is the main screen. This is a dynamic screen that changes based on the user's actions. When this screen works as a home page, it will display a predefined background picture with a main "Shop Now" button. Once the user scrolls down, the following two sections will be displayed: "Featured Items", and "Deals by pet". When displayed in a Tablet/Phone breakpoint, these options should be reorganized so that all the elements can be properly displayed.
+- This is the main screen. This is a dynamic screen that changes based on the user's actions. When this screen works as a home page, it will display a predefined background picture with a main "Shop Now" button. When clicking on this button, the page will automatically scroll down to the following two sections: "Featured Items", and "Deals by pet". When displayed in a Tablet/Phone breakpoint, these options should be reorganized so that all the elements can be properly displayed.
 
 ### Footer.
 This section of the website contains the following elements:
@@ -45,3 +46,4 @@ When displayed in a Tablet/Phone breakpoint, these options should be reorganized
 - Copyright Section. Displays the copyright in the bottom left, and some credit card payment options in the bottom right.
 
 # For assignment 1, the "Navigation Bar" component will be translated into a JSX react component.
+# For assignment 2, the "Shop Now" button and part of the logic of the search bar will be implemented. In addition, a document mapping all the application components will be provided.
