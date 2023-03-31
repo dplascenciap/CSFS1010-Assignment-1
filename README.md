@@ -1,8 +1,11 @@
 # CSFS1010-Assignment-1
-- Repository to host the Pet Store eCommerce Project
+- Create repository to host the Pet Store eCommerce Project.
+- Include project description.
+- The "Navigation Bar" component has been translated into a JSX react component.
 
 # CSFS1010-Assignment-2
-- Add a document that describes the project structure. Refer to: [README.md](./petstore_ecommerce/mapping_components/README.md)
+- Add a document that describes the project structure. Refer to: [Mapping Components](./petstore_ecommerce/mapping_components/)
+- The "Shop Now" button and part of the logic of the search bar will be implemented.
 
 ## Individual Final Project
 
