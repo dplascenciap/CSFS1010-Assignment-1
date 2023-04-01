@@ -1,7 +1,7 @@
 # Pet Store eCommerce - Project Structure
 
-Section 1 describes the application layout.
-Section 2 described components and their props and states.
+- Section 1 describes the application layout.
+- Section 2 described components and their props and states.
 
 ## Section 1 - App Components Layout
 - Navigation Bar
