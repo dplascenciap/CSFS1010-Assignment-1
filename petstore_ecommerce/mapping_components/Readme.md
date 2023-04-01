@@ -1,6 +1,9 @@
 # Pet Store eCommerce - Project Structure
 
-## App Components Layout
+Section 1 describes the application layout.
+Section 2 described components and their props and states.
+
+## Section 1 - App Components Layout
 - Navigation Bar
   - Nav Items
     - Item List:picture: 'Store Logo'
@@ -42,3 +45,56 @@
       - Item List:picture: 'Twitter Logo '
       - Item List:picture: 'Facebook Logo'
       - Item List:picture: 'Instagram Logo'
+
+## Section 2 - Components Props and States
+- Navigation Bar
+  - Nav Items
+    - **Props:**
+      - List of Nav Items with options
+      - Nav Item
+        - **Props:**
+          - Text to be displayed (caption)
+          - Picture to be displayed (logo)
+        - **State:**
+          - Current selection
+  - Search bar
+    - **State:**
+      - Input value to be search
+- Main Window
+  - Button
+    - **Props:**
+      - Text to be displayed (caption)
+      - Picture to be displayed (logo)
+    - **State:**
+        - Current selection
+  - Section: 'Featured Items'
+    - List of popular items to be displayed
+      - Popular Item
+        - **Props:**
+          - Product Picture
+          - Product name
+          - Product price
+        - **State:**
+          - Current selection
+  - Section: 'Deals by pet'
+    - List of items organized by pet
+      - Item organized by pet
+        - **Props:**
+          - Pet picture (dog/cat/fish)
+          - Pet type (dog/cat/fish)
+        - **State:**
+          - Current selection
+- Footer
+  - Footer section
+    - **Props:**
+      - Caption
+      - List of options
+      - Option
+        - **Props:**
+          - Text to be displayed (caption)
+          - Picture to be displayed (logo)
+          - Input box
+          - Button
+        - **State:**
+          - Current selection
+          - Input value from input box
