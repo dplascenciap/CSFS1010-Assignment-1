@@ -1,9 +1,20 @@
 # Pet Store eCommerce - Project Structure
 
-- Section 1 describes the application layout.
-- Section 2 described components and their props and states.
+- Section 1 shows screenshots for each section.
+- Section 2 describes the application layout.
+- Section 3 described components and their props and states.
 
-## Section 1 - App Components Layout
+## Section 1 - App Screenshots
+- Navigation bar screenshot:
+![Nav bar screenshot](navigationBar.png)
+- Main Window 1 screenshot:
+![Main Window 1 screenshot](mainWindow1.png)
+- Main Window 2 screenshot:
+![Main Window 2 screenshot](mainWindow2.png)
+- Footer screenshot:
+![Footer screenshot](footer.png)
+
+## Section 2 - App Components Layout
 - Navigation Bar
   - Nav Items
     - Item List:picture: 'Store Logo'
@@ -45,9 +56,6 @@
       - Item List:picture: 'Twitter Logo '
       - Item List:picture: 'Facebook Logo'
       - Item List:picture: 'Instagram Logo'
-
-- Footer screenshot:
-![Footer screenshot](footer.png)
 
 ## Section 2 - Components Props and States
 - Navigation Bar
