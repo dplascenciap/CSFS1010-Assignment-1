@@ -1,7 +1,44 @@
 # Pet Store eCommerce - Project Structure
 
-## Components
-- Navigation Bar
-  - Search bar
-- Main Window
-- Footer
+## App Components Layout
+- <Navigation Bar />
+  - Nav Items
+    - Item List:picture: 'Store Logo'
+    - Item List:button : 'Shop'
+    - Item List:button : 'New Items'
+    - Item List:button : 'Special Offers'
+    - Item List:button : 'Track Your Order'
+    - Item List:button : 'FAQs'
+    - Item List:button : 'Register/Login'
+    - Item List:button : 'Shopping Cart'
+  - <Search bar />
+- <Main Window />
+  - Button: 'Shop Now'
+  - Section: 'Featured Items'
+    - List of popular items to be displayed
+      - Item List:picture: 'Product Picture'
+      - Item List:text   : 'Product name'
+      - Item List:text   : 'Product price'
+  - Section: 'Deals by pet'
+    - List of items organized by pet
+      - Item List:picture: 'Pet picture (dog/cat/fish)'
+      - Item List:text   : 'Pet type (dog/cat/fish)'
+- <Footer />
+  - Footer Items
+    - Item List:text: 'Newsletter'
+      - Input box: 'email'
+      - Button: 'Subscribe'
+    - Item List:text: 'Customer Service'
+      - Item List:text   : 'Track an Order'
+      - Item List:text   : 'About Us'
+      - Item List:text   : 'FAQs'
+      - Item List:text   : 'Contact Us'
+    - Item List:text: 'Additional Services'
+      - Item List:text   : 'Dog grooming'
+      - Item List:text   : 'Dog wash'
+      - Item List:text   : 'Daycare'
+      - Item List:text   : 'Training'
+    - Item List:text: 'Be in touch'
+      - Item List:picture: 'Twitter Logo '
+      - Item List:picture: 'Facebook Logo'
+      - Item List:picture: 'Instagram Logo'
