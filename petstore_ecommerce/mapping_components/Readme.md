@@ -1,7 +1,7 @@
 # Pet Store eCommerce - Project Structure
 
 ## App Components Layout
-- <Navigation Bar />
+- Navigation Bar
   - Nav Items
     - Item List:picture: 'Store Logo'
     - Item List:button : 'Shop'
@@ -11,8 +11,8 @@
     - Item List:button : 'FAQs'
     - Item List:button : 'Register/Login'
     - Item List:button : 'Shopping Cart'
-  - <Search bar />
-- <Main Window />
+  - Search bar
+- Main Window
   - Button: 'Shop Now'
   - Section: 'Featured Items'
     - List of popular items to be displayed
@@ -23,7 +23,7 @@
     - List of items organized by pet
       - Item List:picture: 'Pet picture (dog/cat/fish)'
       - Item List:text   : 'Pet type (dog/cat/fish)'
-- <Footer />
+- Footer
   - Footer Items
     - Item List:text: 'Newsletter'
       - Input box: 'email'
