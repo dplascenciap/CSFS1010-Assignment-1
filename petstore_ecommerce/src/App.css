@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+/* Set font and background color for the body. */
+body {
+  font-family: 'Inter';
+  background-color: black;
+  text-transform: capitalize;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Limit max size screen for desktop breakpoint, 1920px. */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Adjust store logo size. */
+#img_logo {
+  width: 120px;
+  height: 120px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Adjust shopping cart logo. */
+#img_cart {
+  width: 90px;
+  height: 90px;
+}
+
+/* Navigation items - All sizes. */
+.nav-items {
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  font-size: 1.7vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: 700;
+}
+
+/* Navigation items list - All sizes. */
+.nav-items li {
+  display: block;
+}
+
+/* Remove underline format. */
+.nav-items a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Change color when hovering.  */
+.nav-items a:hover {
+  background-color: #F89C14;
 }

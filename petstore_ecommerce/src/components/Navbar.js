@@ -1,21 +1,102 @@
+import NavItem from "./NavItem";
+
+/**
+ * Declare array with all the elements to be displayed in the NavBar.
+ * All these parameters are sent as props to the component NavItem
+ */
+ const navItemsArray = [
+    {
+        isImage:true,
+        srcPath:"./assets/pet_store_logo.png",
+        desc:"Pet Store Logo",
+        id:"img_logo",
+        url:"",
+        caption:""
+    },
+
+    {
+        isImage:false,
+        srcPath:"",
+        desc:"",
+        id:"",
+        url:"TBD",
+        caption:"shop"
+    },
+
+    {
+        isImage:false,
+        srcPath:"",
+        desc:"",
+        id:"",
+        url:"TBD",
+        caption:"new items"
+    },
+
+    {
+        isImage:false,
+        srcPath:"",
+        desc:"",
+        id:"",
+        url:"TBD",
+        caption:"special offers"
+    },
+
+    {
+        isImage:false,
+        srcPath:"",
+        desc:"",
+        id:"",
+        url:"TBD",
+        caption:"track your order"
+    },
+
+    {
+        isImage:false,
+        srcPath:"",
+        desc:"",
+        id:"",
+        url:"TBD",
+        caption:"FAQs"
+    },
+
+    {
+        isImage:false,
+        srcPath:"",
+        desc:"",
+        id:"",
+        url:"TBD",
+        caption:"register/login"
+    },
+
+    {
+        isImage:true,
+        srcPath:"./assets/shopping-cart.png",
+        desc:"shopping-cart Logo",
+        id:"img_cart",
+        url:"",
+        caption:""
+    }
+]
+
 /**
  * Function Navbar()
  * @returns Navigation bar component
  */
-
 function Navbar() {
     return (
         <div className="container">
             <nav className='navbar'>
                 <ul className="nav-items">
-                    <img src="./assets/pet_store_logo.png" alt="Pet Store Logo" id="img_logo" width={128}/>
-                    <li><a href="TBD">shop</a></li>
-                    <li><a href="TBD">new items</a></li>
-                    <li><a href="TBD">special offers</a></li>
-                    <li><a href="TBD">track your order</a></li>
-                    <li><a href="TBD">FAQs</a></li>
-                    <li><a href="TBD">register/login</a></li>
-                    <img src="./assets/shopping-cart.png" alt="shopping-cart Logo" id="img_cart" width={128}/>
+                    {navItemsArray.map((navItem) => (
+                            <NavItem
+                                isImage = {navItem.isImage}
+                                srcPath = {navItem.srcPath}
+                                desc    = {navItem.desc}
+                                id      = {navItem.id}
+                                url     = {navItem.url}
+                                caption = {navItem.caption}
+                            />
+                    ))}
                 </ul>
             </nav>
         </div>
