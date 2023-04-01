@@ -46,6 +46,9 @@
       - Item List:picture: 'Facebook Logo'
       - Item List:picture: 'Instagram Logo'
 
+- Footer screenshot:
+![Footer screenshot](footer.png)
+
 ## Section 2 - Components Props and States
 - Navigation Bar
   - Nav Items
