@@ -7,12 +7,15 @@
  */
 function NavItem (props) {
     console.log(props.isImage)
-
-    return (
-        <section>
-            {props.isImage ? <img src={props.srcPath} alt={props.desc} id={props.id} width={128}/> : <li><a href={props.url}>{props.caption}</a></li> }
-        </section>
-    )
+    // Render an image if requested
+    if (props.isImage == true)
+        return (
+            <img src={props.srcPath} alt={props.desc} id={props.id} width={128}/>
+        )
+    else
+        return (
+            <li><a href={props.url}>{props.caption}</a></li>
+        )
 }
 
 export default NavItem;
