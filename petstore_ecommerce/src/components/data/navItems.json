@@ -1,0 +1,73 @@
+[
+    {
+        "isImage"   : true,
+        "srcPath"   : "./assets/pet_store_logo.png",
+        "desc"      : "Pet Store Logo",
+        "id"        : "img_logo",
+        "url"       : "",
+        "caption"   : ""
+    },
+
+    {
+        "isImage"   : false,
+        "srcPath"   : "",
+        "desc"      : "",
+        "id"        : "",
+        "url"       : "TBD",
+        "caption"   :"shop"
+    },
+
+    {
+        "isImage"   : false,
+        "srcPath"   : "",
+        "desc"      : "",
+        "id"        : "",
+        "url"       : "TBD",
+        "caption"   : "new items"
+    },
+
+    {
+        "isImage"   : false,
+        "srcPath"   : "",
+        "desc"      : "",
+        "id"        : "",
+        "url"       : "TBD",
+        "caption"   : "special offers"
+    },
+
+    {
+        "isImage"   : false,
+        "srcPath"   : "",
+        "desc"      : "",
+        "id"        : "",
+        "url"       : "TBD",
+        "caption"   : "track your order"
+    },
+
+    {
+        "isImage"   : false,
+        "srcPath"   : "",
+        "desc"      : "",
+        "id"        : "",
+        "url"       : "TBD",
+        "caption"   : "FAQs"
+    },
+
+    {
+        "isImage"   : false,
+        "srcPath"   : "",
+        "desc"      : "",
+        "id"        : "",
+        "url"       : "TBD",
+        "caption"   : "register/login"
+    },
+
+    {
+        "isImage"   : true,
+        "srcPath"   : "./assets/shopping-cart.png",
+        "desc"      : "shopping-cart Logo",
+        "id"        : "img_cart",
+        "url"       : "",
+        "caption"   : ""
+    }
+]

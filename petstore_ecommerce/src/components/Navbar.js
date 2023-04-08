@@ -1,82 +1,6 @@
-import NavItem from "./NavItem";
-
-/**
- * Declare array with all the elements to be displayed in the NavBar.
- * All these parameters are sent as props to the component NavItem
- */
- const navItemsArray = [
-    {
-        isImage:true,
-        srcPath:"./assets/pet_store_logo.png",
-        desc:"Pet Store Logo",
-        id:"img_logo",
-        url:"",
-        caption:""
-    },
-
-    {
-        isImage:false,
-        srcPath:"",
-        desc:"",
-        id:"",
-        url:"TBD",
-        caption:"shop"
-    },
-
-    {
-        isImage:false,
-        srcPath:"",
-        desc:"",
-        id:"",
-        url:"TBD",
-        caption:"new items"
-    },
-
-    {
-        isImage:false,
-        srcPath:"",
-        desc:"",
-        id:"",
-        url:"TBD",
-        caption:"special offers"
-    },
-
-    {
-        isImage:false,
-        srcPath:"",
-        desc:"",
-        id:"",
-        url:"TBD",
-        caption:"track your order"
-    },
-
-    {
-        isImage:false,
-        srcPath:"",
-        desc:"",
-        id:"",
-        url:"TBD",
-        caption:"FAQs"
-    },
-
-    {
-        isImage:false,
-        srcPath:"",
-        desc:"",
-        id:"",
-        url:"TBD",
-        caption:"register/login"
-    },
-
-    {
-        isImage:true,
-        srcPath:"./assets/shopping-cart.png",
-        desc:"shopping-cart Logo",
-        id:"img_cart",
-        url:"",
-        caption:""
-    }
-]
+import NavItem  from "./NavItem";
+// The navigation items are retrieved from the json file navItem.json
+import navItems from "./data/navItems.json"
 
 /**
  * Function Navbar()
@@ -87,7 +11,7 @@ function Navbar() {
         <div className="container">
             <nav className='navbar'>
                 <ul className="nav-items">
-                    {navItemsArray.map((navItem) => (
+                    {navItems.map((navItem) => (
                             <NavItem
                                 isImage = {navItem.isImage}
                                 srcPath = {navItem.srcPath}
