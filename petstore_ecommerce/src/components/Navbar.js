@@ -13,7 +13,7 @@ function Navbar() {
                 <ul className="nav-items">
                     {navItems.map((navItem) => (
                             <NavItem
-                                isImage = {navItem.isImage}
+                                objType = {navItem.objType}
                                 srcPath = {navItem.srcPath}
                                 desc    = {navItem.desc}
                                 id      = {navItem.id}

@@ -1,6 +1,6 @@
 [
     {
-        "isImage"   : true,
+        "objType"   : "obj_image",
         "srcPath"   : "./assets/pet_store_logo.png",
         "desc"      : "Pet Store Logo",
         "id"        : "img_logo",
@@ -9,7 +9,7 @@
     },
 
     {
-        "isImage"   : false,
+        "objType"   : "obj_list",
         "srcPath"   : "",
         "desc"      : "",
         "id"        : "",
@@ -18,7 +18,7 @@
     },
 
     {
-        "isImage"   : false,
+        "objType"   : "obj_list",
         "srcPath"   : "",
         "desc"      : "",
         "id"        : "",
@@ -27,7 +27,7 @@
     },
 
     {
-        "isImage"   : false,
+        "objType"   : "obj_list",
         "srcPath"   : "",
         "desc"      : "",
         "id"        : "",
@@ -36,7 +36,7 @@
     },
 
     {
-        "isImage"   : false,
+        "objType"   : "obj_list",
         "srcPath"   : "",
         "desc"      : "",
         "id"        : "",
@@ -45,7 +45,7 @@
     },
 
     {
-        "isImage"   : false,
+        "objType"   : "obj_list",
         "srcPath"   : "",
         "desc"      : "",
         "id"        : "",
@@ -54,7 +54,7 @@
     },
 
     {
-        "isImage"   : false,
+        "objType"   : "obj_list",
         "srcPath"   : "",
         "desc"      : "",
         "id"        : "",
@@ -63,7 +63,7 @@
     },
 
     {
-        "isImage"   : true,
+        "objType"   : "obj_image",
         "srcPath"   : "./assets/shopping-cart.png",
         "desc"      : "shopping-cart Logo",
         "id"        : "img_cart",
