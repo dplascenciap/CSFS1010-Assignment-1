@@ -1,4 +1,4 @@
-import NavItem  from "./NavItem";
+import RenderItem  from "./RenderItem";
 // The navigation items are retrieved from the json file navItem.json
 import navItems from "./data/navItems.json"
 
@@ -12,7 +12,7 @@ function Navbar() {
             <nav className='navbar'>
                 <ul className="nav-items">
                     {navItems.map((navItem) => (
-                            <NavItem
+                            <RenderItem
                                 objType = {navItem.objType}
                                 srcPath = {navItem.srcPath}
                                 desc    = {navItem.desc}

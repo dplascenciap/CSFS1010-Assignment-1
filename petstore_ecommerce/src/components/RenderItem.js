@@ -9,9 +9,9 @@ import { Link } from "react-router-dom";
  *          - obj_button
  *          - obj_input
  * @param {*} props
- * @returns NavItem
+ * @returns RenderItem
  */
-function NavItem (props) {
+function RenderItem (props) {
     console.log(props.isImage)
     // Render an object as requested.
     switch(props.objType) {
@@ -32,4 +32,4 @@ function NavItem (props) {
     }
 }
 
-export default NavItem;
+export default RenderItem;
