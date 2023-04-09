@@ -6,7 +6,7 @@ body {
 }
 
 /* Limit max size screen for desktop breakpoint, 1920px. */
-.container {
+.App {
   margin: 0 auto;
   width: 100%;
   max-width: 1920px;
