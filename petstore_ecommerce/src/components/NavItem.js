@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 /**
  * This function renders an object based on the object type specified by
  * the parameter 'objType'.
@@ -17,11 +19,15 @@ function NavItem (props) {
             return (null);
         case "obj_image":
             return (
-                <img src={props.srcPath} alt={props.desc} id={props.id} width={128}/>
+                <Link to={props.url}>{props.caption}
+                    <img src={props.srcPath} alt={props.desc} id={props.id} width={128}/>
+                </Link>
             );
         case "obj_list":
             return (
-                <li><a href={props.url}>{props.caption}</a></li>
+                <li>
+                    <Link to={props.url}>{props.caption}</Link>
+                </li>
             );
     }
 }
