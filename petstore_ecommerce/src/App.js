@@ -1,13 +1,16 @@
-// Import style
-import './App.css';
+// Import style.
+//import './App.css';
 
-// Import Navbar components
+// Import Navbar components.
 import Navbar from './components/Navbar';
 
-// Import Footer components
+// Import Footer components.
 import Footer from './components/Footer';
 
-// Import react router components
+// Import copyright components.
+import Copyright from './components/Copyright';
+
+// Import react router components.
 import {BrowserRouter} from 'react-router-dom';
 import MyRoutes from './components/MyRoutes';
 
@@ -18,9 +21,10 @@ function App() {
         <header className="App-header">
         </header>
         <body>
-          <Navbar/>
-          <MyRoutes/>
-          <Footer/>
+          <Navbar />
+          <MyRoutes />
+          <Footer />
+          <Copyright />
         </body>
       </div>
     </BrowserRouter>

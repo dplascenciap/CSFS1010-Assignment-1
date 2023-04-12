@@ -7,9 +7,9 @@
         <div className="BeInTouch">
             <h2>be in touch</h2>
             <ul>
-            <li>Twitter</li>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
+                <li>twitter</li>
+                <li>facebook</li>
+                <li>instagram</li>
             </ul>
         </div>
     );
