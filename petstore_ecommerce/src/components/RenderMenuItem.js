@@ -19,9 +19,11 @@ function RenderItem (props) {
             return (null);
         case "obj_image":
             return (
-                <Link to={props.url}>{props.caption}
-                    <img src={props.srcPath} alt={props.desc} id={props.id} width={128}/>
-                </Link>
+                <li>
+                    <Link to={props.url}>{props.caption}
+                        <img src={props.srcPath} alt={props.desc} id={props.id} width={128}/>
+                    </Link>
+                </li>
             );
         case "obj_list":
             return (
