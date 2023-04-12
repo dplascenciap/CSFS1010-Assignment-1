@@ -7,9 +7,6 @@ import Navbar from './components/Navbar';
 // Import Footer components.
 import Footer from './components/Footer';
 
-// Import copyright components.
-import Copyright from './components/Copyright';
-
 // Import react router components.
 import {BrowserRouter} from 'react-router-dom';
 import MyRoutes from './components/MyRoutes';
@@ -24,7 +21,6 @@ function App() {
           <Navbar />
           <MyRoutes />
           <Footer />
-          <Copyright />
         </body>
       </div>
     </BrowserRouter>
