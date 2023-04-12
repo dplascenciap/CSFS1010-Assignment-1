@@ -54,3 +54,21 @@ body {
 .nav-items a:hover {
   background-color: #F89C14;
 }
+
+/* Footer - Copyright section all sizes */
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #6A50D2;
+  align-items: center;
+  font-size: 1.0vw;
+  height: 50px;
+}
+
+.copyright img {
+  display: flex;
+  width: 208px;
+  height: 44px;
+}
