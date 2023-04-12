@@ -7,17 +7,21 @@ import CustomerService from "./CustomerService";
 // Import additional services component.
 import AdditionalServices from "./AdditionalServices";
 
+// Import be in touch component.
+import BeInTouch from "./BeInTouch";
+
 /**
  * Function Footer()
  * @returns Footer bar component
  */
 function Footer() {
     return (
-        <div>
+        <footer>
             <Newsletter />
             <CustomerService />
             <AdditionalServices />
-        </div>
+            <BeInTouch />
+        </footer>
     );
 }
 
