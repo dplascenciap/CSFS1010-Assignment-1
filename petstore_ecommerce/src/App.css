@@ -67,8 +67,34 @@ body {
   height: 50px;
 }
 
+/* Adjust image card size */
 .copyright img {
   display: flex;
   width: 208px;
   height: 44px;
+}
+
+/* Footer - Sections all sizes */
+footer.top .sections {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+footer.top .sections li {
+  display: block;
+}
+
+footer.top .sections img {
+  display: block;
+  width: auto;
+  height: 50px;
+}
+
+.socialmediaicons {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+  gap: 10px;
 }

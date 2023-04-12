@@ -5,10 +5,16 @@
  function Newsletter() {
     return (
         <div className="Newsletter">
-            <h2>newsletter</h2>
+            <div>
+                <h2>newsletter</h2>
+            </div>
             <div className="subscribe">
-                <input type="email"></input><br></br>
-                <button>subscribe!</button>
+                <div>
+                    <input type="email"></input>
+                </div>
+                <div>
+                    <button>subscribe!</button>
+                </div>
             </div>
         </div>
     );

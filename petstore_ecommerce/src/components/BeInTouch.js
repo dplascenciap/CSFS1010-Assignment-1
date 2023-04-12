@@ -5,11 +5,13 @@
  function BeInTouch() {
     return (
         <div className="BeInTouch">
-            <h2>be in touch</h2>
             <div>
-                <ul>
+                <h2>be in touch</h2>
+            </div>
+            <div>
+                <ul className="socialmediaicons">
                     <li>
-                    <img src="./assets/twitterIcon.png"
+                        <img src="./assets/twitterIcon.png"
                             alt="Facebook Logo"
                             id="img_facebook"
                             width={128}

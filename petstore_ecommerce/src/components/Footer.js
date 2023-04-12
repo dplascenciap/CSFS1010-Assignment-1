@@ -21,13 +21,17 @@ function Footer() {
     return (
         <section>
             <footer className="top">
-                <Newsletter />
-                <CustomerService />
-                <AdditionalServices />
-                <BeInTouch />
+                <div className="sections">
+                    <Newsletter />
+                    <CustomerService />
+                    <AdditionalServices />
+                    <BeInTouch />
+                </div>
             </footer>
             <footer className="bottom">
-                <Copyright />
+                <div className="sections">
+                    <Copyright />
+                </div>
             </footer>
         </section>
     );
