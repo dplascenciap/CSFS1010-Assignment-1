@@ -4,6 +4,9 @@ import './App.css';
 // Import Navbar components
 import Navbar from './components/Navbar';
 
+// Import Footer components
+import Footer from './components/Footer';
+
 // Import react router components
 import {BrowserRouter} from 'react-router-dom';
 import MyRoutes from './components/MyRoutes';
@@ -17,9 +20,7 @@ function App() {
         <body>
           <Navbar/>
           <MyRoutes/>
-          <footer>
-            <p>This is a footer</p>
-          </footer>
+          <Footer/>
         </body>
       </div>
     </BrowserRouter>

@@ -1,4 +1,4 @@
-import RenderItem  from "./RenderItem";
+import RenderItem  from "./RenderMenuItem";
 // The navigation items are retrieved from the json file navItem.json
 import navItems from "./data/navItems.json"
 
