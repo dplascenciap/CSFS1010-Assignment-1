@@ -55,6 +55,41 @@ body {
   background-color: #F89C14;
 }
 
+/* Main page - All sizes */
+.main_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main picture*/
+#img_main {
+  width: 1470px;
+  height: 662px;
+  position: relative;
+}
+
+/* Shop npw button */
+/* Shop now button*/
+.shop_now {
+  position: absolute;
+  height: 107px;
+  width: 241px;
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.shop_now:hover {
+  background-color: #F89C14;
+  cursor: pointer;
+}
+
 /* Footer - Copyright section all sizes */
 .copyright {
   display: flex;

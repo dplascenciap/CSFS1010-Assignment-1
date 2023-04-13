@@ -5,11 +5,12 @@
 
 function HomePage() {
     return (
-        <div>
-            <h1>Home</h1>
-            <p>
-                This is home page
-            </p>
+        <div className="main_page">
+            <img src="./assets/main_picture.png"
+                            alt="Dog sitting next to a person"
+                            id="img_main"
+                        />
+            <button class="shop_now">shop now</button>
         </div>
     )
 }
