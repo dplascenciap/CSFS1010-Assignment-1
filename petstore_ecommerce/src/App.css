@@ -150,3 +150,38 @@ footer.top .sections img {
   padding-right: 2rem;
   gap: 10px;
 }
+
+/* ==== Shop Page ===*/
+/* Search bar */
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+input {
+  font-size: 2rem;
+}
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-top: 10px;
+  gap: 10px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.product {
+  border: 3px solid white;
+  padding: 10px;
+}
+
+.product .name {
+  font-size: 25px;
+}
+
+.product .price {
+  font-size: 20px;
+}
