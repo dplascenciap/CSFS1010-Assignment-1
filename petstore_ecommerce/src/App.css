@@ -33,7 +33,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  font-size: 1.7vw;
+  font-size: 1.3vw;
   padding-left: 2rem;
   padding-right: 2rem;
   font-weight: 700;
@@ -70,9 +70,7 @@ body {
 }
 
 /* Shop npw button */
-/* Shop now button*/
 .shop_now {
-  position: absolute;
   height: 107px;
   width: 241px;
   background-color: black;
