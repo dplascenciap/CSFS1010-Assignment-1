@@ -1,5 +1,8 @@
 import products from "./data/products.json"
 
+// Import search bar component
+import SearchBar from "./SearchBar";
+
 /**
  * Function ShopPage()
  * @returns Shop page component
@@ -8,10 +11,7 @@ import products from "./data/products.json"
     return (
         <div>
             <h1>Shop</h1>
-            <div className="search-bar">
-                <h2>Search Products</h2><br></br>
-                <input type="search" id="search"/>
-            </div>
+            <SearchBar />
             <div className="productList">
                 {products.map((productItem) => (
                     <div className="product">
