@@ -90,6 +90,25 @@ body {
   cursor: pointer;
 }
 
+.subscribe {
+  display: flex;
+}
+
+/* Subscribe button */
+.subscribe_btn {
+  text-transform: capitalize;
+  background-color: #F89C14;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+}
+
+.subscribe_btn:hover {
+  cursor: pointer;
+}
+
 /* Footer - Copyright section all sizes */
 .copyright {
   display: flex;

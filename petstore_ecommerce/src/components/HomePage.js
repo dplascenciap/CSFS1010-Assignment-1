@@ -10,7 +10,7 @@ function HomePage() {
                             alt="Dog sitting next to a person"
                             id="img_main"
                         />
-            <button class="shop_now">shop now</button>
+            <button className="shop_now">shop now</button>
         </div>
     )
 }

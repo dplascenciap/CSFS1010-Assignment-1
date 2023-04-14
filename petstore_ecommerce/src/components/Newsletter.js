@@ -10,10 +10,8 @@
             </div>
             <div className="subscribe">
                 <div>
-                    <input type="email"></input>
-                </div>
-                <div>
-                    <button>subscribe!</button>
+                    <input type="email"></input><br></br>
+                    <button className="subscribe_btn">subscribe!</button>
                 </div>
             </div>
         </div>
