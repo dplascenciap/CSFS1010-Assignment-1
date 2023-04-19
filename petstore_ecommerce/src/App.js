@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 // Import react router components.
 import {BrowserRouter} from 'react-router-dom';
-import MyRoutes from './components/MyRoutes';
+import MyRoutes from './pages/MyRoutes';
 
 function App() {
   return (

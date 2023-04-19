@@ -1,10 +1,10 @@
-import products from "./data/products.json"
+import products from "../components/data/products.json"
 
 // Import search bar component
-import SearchBar from "./SearchBar";
+import SearchBar from "../components/SearchBar";
 
 // Import products component
-import ProductsComp from "./Products";
+import ProductsComp from "../components/Products";
 
 // Import useState
 import { useState } from "react";
