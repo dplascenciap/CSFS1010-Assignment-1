@@ -19,7 +19,10 @@
                 <div className="product">
                     <li className="name">{productItem.name}</li>
                     <li className="supplier">{productItem.supplier}</li>
-                    <li className="price">{productItem.price}</li>
+                    <li className="price">${productItem.price}</li>
+                    <div className="imgDiv">
+                        <img className="img" src={productItem.image_url} alt={productItem.name} width={480}/>
+                    </div>
                     </div>
                 ))}
         </div>
