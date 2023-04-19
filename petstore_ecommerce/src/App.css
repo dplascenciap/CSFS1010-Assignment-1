@@ -44,15 +44,22 @@ body {
   display: block;
 }
 
-/* Remove underline format. */
+/* Change color when hovering. */
+.nav-items li:hover{
+  background-color: #F89C14;
+  transition: 0.5s ease;
+}
+
+/* Remove underline format.*/
 .nav-items a {
   text-decoration: none;
   color: black;
 }
 
-/* Change color when hovering.  */
-.nav-items a:hover {
+/* Change color when hovering. */
+.nav-items img:hover {
   background-color: #F89C14;
+  transition: 0.5s ease;
 }
 
 /* Main page - All sizes */
