@@ -17,9 +17,9 @@
         <div className="productList">
             {filteredResults.map((productItem) => (
                 <div className="product">
-                    <li>{productItem.name}</li>
-                    <li>{productItem.supplier}</li>
-                    <li>{productItem.price}</li>
+                    <li className="name">{productItem.name}</li>
+                    <li className="supplier">{productItem.supplier}</li>
+                    <li className="price">{productItem.price}</li>
                     </div>
                 ))}
         </div>

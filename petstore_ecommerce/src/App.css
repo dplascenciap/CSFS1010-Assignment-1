@@ -166,11 +166,15 @@ input {
 
 .productList {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   margin-top: 10px;
   gap: 10px;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.productList li {
+  display: block;
 }
 
 .product {
@@ -179,6 +183,10 @@ input {
 }
 
 .product .name {
+  font-size: 30px;
+}
+
+.product .supplier {
   font-size: 25px;
 }
 
