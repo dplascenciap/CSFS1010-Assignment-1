@@ -1,13 +1,15 @@
   /* Adjust store logo size. */
   #img_logo {
-    width: 120px;
-    height: 120px;
+    max-width: 120px;
+    width: 100%;
+    height: auto;
   }
 
   /* Adjust shopping cart logo. */
   #img_cart {
-    width: 90px;
-    height: 90px;
+    max-width: 90px;
+    width: 100%;
+    height: auto;
   }
 
   /* Navigation items - All sizes. */
