@@ -25,202 +25,202 @@
       "name": "Dog Treats",
       "supplier": "Milk-Bone",
       "price": 10.99,
-      "image_url": "https://www.example.com/dog_treats.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2018/03/14/20/08/dog-food-3226266_1280.jpg"
     },
     {
       "id": 5,
       "name": "Cat Treats",
       "supplier": "Fancy Feast",
       "price": 12.99,
-      "image_url": "https://www.example.com/cat_treats.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2018/03/10/21/42/british-shorthair-3215380_1280.jpg"
     },
     {
       "id": 6,
       "name": "Dog Toys",
       "supplier": "Kong",
       "price": 15.99,
-      "image_url": "https://www.example.com/dog_toys.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2021/08/11/10/30/jack-russell-terrier-6538095_1280.jpg"
     },
     {
       "id": 7,
       "name": "Cat Toys",
       "supplier": "Cat Dancer",
       "price": 13.99,
-      "image_url": "https://www.example.com/cat_toys.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2015/05/28/21/12/mieze-788577_1280.jpg"
     },
     {
       "id": 8,
       "name": "Fish Tank",
       "supplier": "Aqueon",
       "price": 99.99,
-      "image_url": "https://www.example.com/fish_tank.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2017/09/23/06/38/fish-2777953_1280.jpg"
     },
     {
       "id": 9,
       "name": "Cat Litter",
       "supplier": "Arm & Hammer",
       "price": 18.99,
-      "image_url": "https://www.example.com/cat_litter.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2018/04/07/11/11/litter-box-3298240_1280.jpg"
     },
     {
       "id": 10,
       "name": "Dog Collar",
       "supplier": "Blueberry Pet",
       "price": 9.99,
-      "image_url": "https://www.example.com/dog_collar.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2017/09/08/16/54/rhodesian-ridgeback-2729375_1280.jpg"
     },
     {
       "id": 11,
       "name": "Cat Scratching Post",
       "supplier": "SmartCat",
       "price": 35.99,
-      "image_url": "https://www.example.com/cat_scratching_post.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2017/09/26/21/02/british-shorthair-2790048_1280.jpg"
     },
     {
       "id": 12,
       "name": "Dog Leash",
       "supplier": "Flexi",
       "price": 19.99,
-      "image_url": "https://www.example.com/dog_leash.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2022/04/25/15/50/dogs-7156260_1280.jpg"
     },
     {
       "id": 13,
       "name": "Fish Tank Filter",
       "supplier": "API",
       "price": 29.99,
-      "image_url": "https://www.example.com/fish_tank_filter.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2013/03/01/18/36/chemical-87781_1280.jpg"
     },
     {
       "id": 1,
       "name": "Dog Food",
       "supplier": "Acme Pet Supplies",
       "price": 24.99,
-      "image_url": "https://example.com/dog_food.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2020/05/13/21/03/dog-food-5168940_1280.jpg"
     },
     {
       "id": 2,
       "name": "Cat Litter",
       "supplier": "Petco",
       "price": 10.99,
-      "image_url": "https://example.com/cat_litter.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2018/04/07/11/11/litter-box-3298240_1280.jpg"
     },
     {
       "id": 3,
       "name": "Fish Tank",
       "supplier": "Aquarium Depot",
       "price": 99.99,
-      "image_url": "https://example.com/fish_tank.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2017/09/23/06/38/fish-2777953_1280.jpg"
     },
     {
       "id": 4,
       "name": "Bird Cage",
       "supplier": "Birds Unlimited",
       "price": 49.99,
-      "image_url": "https://example.com/bird_cage.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2016/03/09/19/10/frog-1247180_1280.jpg"
     },
     {
       "id": 5,
       "name": "Hamster Wheel",
       "supplier": "Rodent Emporium",
       "price": 12.99,
-      "image_url": "https://example.com/hamster_wheel.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2015/11/19/22/52/hamster-1052182_1280.jpg"
     },
     {
       "id": "1",
       "name": "Dog Food",
       "supplier": "Purina",
       "price": 20.99,
-      "image_url": "https://example.com/dogfood.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2020/05/13/21/03/dog-food-5168940_1280.jpg"
     },
     {
       "id": "2",
       "name": "Cat Food",
       "supplier": "Friskies",
       "price": 15.99,
-      "image_url": "https://example.com/catfood.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2017/03/24/08/27/cat-2170495_1280.jpg"
     },
     {
       "id": "3",
       "name": "Fish Tank",
       "supplier": "Aqueon",
       "price": 79.99,
-      "image_url": "https://example.com/fishtank.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2017/09/23/06/38/fish-2777953_1280.jpg"
     },
     {
       "id": "4",
       "name": "Dog Collar",
       "supplier": "Mighty Paw",
       "price": 14.99,
-      "image_url": "https://example.com/dogcollar.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2017/09/08/16/54/rhodesian-ridgeback-2729375_1280.jpg"
     },
     {
       "id": "5",
       "name": "Cat Litter",
       "supplier": "Tidy Cats",
       "price": 11.99,
-      "image_url": "https://example.com/cat litter.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2018/04/07/11/11/litter-box-3298240_1280.jpg"
     },
     {
       "id": "6",
       "name": "Hamster Cage",
       "supplier": "Kaytee",
       "price": 29.99,
-      "image_url": "https://example.com/hamstercage.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2017/09/07/10/24/hamster-2724477_1280.jpg"
     },
     {
       "id": "7",
       "name": "Dog Chew Toy",
       "supplier": "KONG",
       "price": 8.99,
-      "image_url": "https://example.com/dogchewtoy.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2014/05/21/18/08/dog-bones-350094_1280.jpg"
     },
     {
       "id": "8",
       "name": "Cat Scratching Post",
       "supplier": "Frisco",
       "price": 39.99,
-      "image_url": "https://example.com/catscratchingpost.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2017/09/26/21/02/british-shorthair-2790048_1280.jpg"
     },
     {
       "id": "9",
       "name": "Fish Food",
       "supplier": "Tetra",
       "price": 5.99,
-      "image_url": "https://example.com/fishfood.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2015/10/31/15/49/smile-1015876_1280.jpg"
     },
     {
       "id": "10",
       "name": "Dog Bed",
       "supplier": "BarksBar",
       "price": 49.99,
-      "image_url": "https://example.com/dogbed.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2017/01/07/17/56/dog-1961112_1280.jpg"
     },
     {
       "id": "11",
       "name": "Cat Bed",
       "supplier": "PetFusion",
       "price": 39.99,
-      "image_url": "https://example.com/catbed.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2017/07/31/20/19/gray-2560705_1280.jpg"
     },
     {
       "id": "12",
       "name": "Bird Cage",
       "supplier": "Prevue",
       "price": 99.99,
-      "image_url": "https://example.com/birdcage.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2016/03/09/19/10/frog-1247180_1280.jpg"
     },
     {
       "id": "13",
       "name": "Dog Shampoo",
       "supplier": "Burt's Bees",
       "price": 12.99,
-      "image_url": "https://example.com/dogshampoo.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2020/05/16/00/34/dog-5175532_1280.jpg"
     },
     {
       "id": "14",
       "name": "Cat Toys",
       "supplier": "SmartyKat",
       "price": 7.99,
-      "image_url": "https://example.com/cattoys.jpg"
+      "image_url": "https://cdn.pixabay.com/photo/2015/05/28/21/12/mieze-788577_1280.jpg"
     }
 ]
