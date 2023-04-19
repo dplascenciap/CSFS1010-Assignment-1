@@ -14,54 +14,6 @@ body {
   color: white;
 }
 
-/* Adjust store logo size. */
-#img_logo {
-  width: 120px;
-  height: 120px;
-}
-
-/* Adjust shopping cart logo. */
-#img_cart {
-  width: 90px;
-  height: 90px;
-}
-
-/* Navigation items - All sizes. */
-.nav-items {
-  display: flex;
-  height: 150px;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  font-size: 1.3vw;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  font-weight: 700;
-}
-
-/* Navigation items list - All sizes. */
-.nav-items li {
-  display: block;
-}
-
-/* Change color when hovering. */
-.nav-items li:hover {
-  transition: 0.5s ease;
-  box-shadow: inset 300px 0 0 0 #F89C14;;
-}
-
-/* Remove underline format.*/
-.nav-items a {
-  text-decoration: none;
-  color: black;
-}
-
-/* Change color when hovering. */
-.nav-items img:hover {
-  transition: 0.5s ease;
-  box-shadow: inset 300px 0 0 0 #F89C14;;
-}
-
 /* Main page - All sizes */
 .main_page {
   display: flex;

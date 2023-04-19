@@ -1,6 +1,8 @@
 import RenderItem  from "./RenderMenuItem";
 // The navigation items are retrieved from the json file navItem.json
 import navItems from "./data/navItems.json"
+// Import Navbar style
+import './styles/Navbar.css';
 
 /**
  * Function Navbar()
