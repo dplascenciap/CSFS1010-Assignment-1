@@ -45,9 +45,9 @@ body {
 }
 
 /* Change color when hovering. */
-.nav-items li:hover{
-  background-color: #F89C14;
+.nav-items li:hover {
   transition: 0.5s ease;
+  box-shadow: inset 300px 0 0 0 #F89C14;;
 }
 
 /* Remove underline format.*/
@@ -58,8 +58,8 @@ body {
 
 /* Change color when hovering. */
 .nav-items img:hover {
-  background-color: #F89C14;
   transition: 0.5s ease;
+  box-shadow: inset 300px 0 0 0 #F89C14;;
 }
 
 /* Main page - All sizes */
