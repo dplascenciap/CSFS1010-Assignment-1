@@ -58,3 +58,5 @@ When displayed in a Tablet/Phone breakpoint, these options should be reorganized
 
 # For assignment 1, the "Navigation Bar" component will be translated into a JSX react component.
 # For assignment 2, the "Shop Now" button and part of the logic of the search bar will be implemented. In addition, a document mapping all the application components will be provided.
+
+# Test line to implement Vercel
