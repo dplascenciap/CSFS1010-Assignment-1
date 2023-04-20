@@ -1,14 +1,5 @@
 [
     {
-        "objType"   : "obj_image",
-        "srcPath"   : "./assets/pet_store_logo.png",
-        "desc"      : "Pet Store Logo",
-        "id"        : "img_logo",
-        "url"       : "/",
-        "caption"   : ""
-    },
-
-    {
         "objType"   : "obj_list",
         "srcPath"   : "",
         "desc"      : "",
@@ -60,14 +51,5 @@
         "id"        : "",
         "url"       : "/registerLogin",
         "caption"   : "register/login"
-    },
-
-    {
-        "objType"   : "obj_image",
-        "srcPath"   : "./assets/shopping-cart.png",
-        "desc"      : "shopping-cart Logo",
-        "id"        : "img_cart",
-        "url"       : "/shoppingCart",
-        "caption"   : ""
     }
 ]

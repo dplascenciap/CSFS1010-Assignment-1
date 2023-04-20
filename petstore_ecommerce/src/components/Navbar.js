@@ -12,6 +12,15 @@ function Navbar() {
     return (
         <div className="container">
             <nav className='navbar'>
+                <input className="menu-btn" type="checkbox" id="menu-btn" />
+                <RenderItem
+                    objType = "obj_image"
+                    srcPath = "./assets/pet_store_logo.png"
+                    desc    = "Pet Store Logo"
+                    id      = "img_logo"
+                    url     = "/"
+                />
+                <label className="menu-icon" for="menu-btn"><span class="navicon"></span></label>
                 <ul className="nav-items">
                     {navItems.map((navItem) => (
                             <RenderItem
@@ -24,6 +33,13 @@ function Navbar() {
                             />
                     ))}
                 </ul>
+                <RenderItem
+                    objType = "obj_image"
+                    srcPath = "./assets/shopping-cart.png"
+                    desc    = "Pet Store Logo"
+                    id      = "img_cart"
+                    url     = "/shoppingCart"
+                />
             </nav>
         </div>
     );
