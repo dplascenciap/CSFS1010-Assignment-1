@@ -56,7 +56,8 @@ This section of the website contains the following elements:
 When displayed in a Tablet/Phone breakpoint, these options should be reorganized so all of them can be properly displayed.
 - Copyright Section. Displays the copyright in the bottom left, and some credit card payment options in the bottom right.
 
-# For assignment 1, the "Navigation Bar" component will be translated into a JSX react component.
-# For assignment 2, the "Shop Now" button and part of the logic of the search bar will be implemented. In addition, a document mapping all the application components will be provided.
+## For assignment 1, the "Navigation Bar" component will be translated into a JSX react component.
+## For assignment 2, the "Shop Now" button and part of the logic of the search bar will be implemented. In addition, a document mapping all the application components will be provided.
 
-# Test line to implement Vercel
+## For assignment 3, the website is partially responsive, and it is deployed in:
+- https://csfs-1010-assignment-3.vercel.app/
