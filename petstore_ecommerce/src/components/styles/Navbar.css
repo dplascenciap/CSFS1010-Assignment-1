@@ -38,18 +38,17 @@
 .navbar li a {
   display: block;
   padding: 20px 20x;
-  border-right: 1px solid #f4f4f4;
   text-decoration: none;
 }
 
 .nav-items li:hover {
   transition: 0.5s ease;
-  box-shadow: inset 300px 0 0 0 #F89C14;;
+  box-shadow: inset 350px 0 0 0 #F89C14;;
 }
 
 .navbar img:hover {
   transition: 0.5s ease;
-  box-shadow: inset 300px 0 0 0 #F89C14;;
+  box-shadow: inset 350px 0 0 0 #F89C14;;
 }
 
 /* menu */
