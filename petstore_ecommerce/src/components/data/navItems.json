@@ -1,0 +1,55 @@
+[
+    {
+        "objType"   : "obj_list",
+        "srcPath"   : "",
+        "desc"      : "",
+        "id"        : "",
+        "url"       : "/shop",
+        "caption"   :"shop"
+    },
+
+    {
+        "objType"   : "obj_list",
+        "srcPath"   : "",
+        "desc"      : "",
+        "id"        : "",
+        "url"       : "/newItems",
+        "caption"   : "new items"
+    },
+
+    {
+        "objType"   : "obj_list",
+        "srcPath"   : "",
+        "desc"      : "",
+        "id"        : "",
+        "url"       : "/specialOffers",
+        "caption"   : "special offers"
+    },
+
+    {
+        "objType"   : "obj_list",
+        "srcPath"   : "",
+        "desc"      : "",
+        "id"        : "",
+        "url"       : "/trackYourOrder",
+        "caption"   : "track your order"
+    },
+
+    {
+        "objType"   : "obj_list",
+        "srcPath"   : "",
+        "desc"      : "",
+        "id"        : "",
+        "url"       : "faqs",
+        "caption"   : "FAQs"
+    },
+
+    {
+        "objType"   : "obj_list",
+        "srcPath"   : "",
+        "desc"      : "",
+        "id"        : "",
+        "url"       : "/registerLogin",
+        "caption"   : "register/login"
+    }
+]

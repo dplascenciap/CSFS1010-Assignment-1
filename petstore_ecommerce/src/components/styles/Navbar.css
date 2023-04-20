@@ -1,0 +1,144 @@
+  /* Adjust store logo size. */
+  #img_logo {
+    max-width: 120px;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Adjust shopping cart logo. */
+  #img_cart {
+    max-width: 90px;
+    width: 100%;
+    height: auto;
+  }
+
+.navbar a {
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: white;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  font-size: 1.3vw;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.navbar li a {
+  display: block;
+  padding: 20px 20x;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.nav-items li:hover {
+  transition: 0.5s ease;
+  box-shadow: inset 300px 0 0 0 #F89C14;;
+}
+
+.navbar img:hover {
+  transition: 0.5s ease;
+  box-shadow: inset 300px 0 0 0 #F89C14;;
+}
+
+/* menu */
+.nav-items {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+.navbar .menu-icon {
+  cursor: pointer;
+  padding: 28px 20px;
+  user-select: none;
+}
+
+.navbar .menu-icon .navicon {
+  background: black;
+  display: block;
+  height: 15px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 80px;
+}
+
+.navbar .menu-icon .navicon:before,
+.navbar .menu-icon .navicon:after {
+  background: black;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.navbar .menu-icon .navicon:before {
+  top: 30px;
+}
+
+.navbar .menu-icon .navicon:after {
+  top: -30px;
+}
+
+/* menu btn */
+
+.navbar .menu-btn {
+  display: none;
+}
+
+.navbar .menu-btn:checked ~ .nav-items {
+  max-height: 240px;
+}
+
+.navbar .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.navbar .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.navbar .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* Menu for all sizes */
+@media (min-width: 48em) {
+  .navbar li {
+    float: left;
+  }
+  .navbar li a {
+    padding: 20px 30px;
+  }
+  .navbar .nav-items {
+    clear: none;
+    float: center;
+    max-height: none;
+    font-size: 1.3vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 700;
+  }
+  .navbar .menu-icon {
+    display: none;
+  }
+}

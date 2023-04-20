@@ -1,5 +1,12 @@
 # CSFS1010-Assignment-1
-Repository to host the Pet Store eCommerce Project
+- Create repository to host the Pet Store eCommerce Project.
+- Include project description.
+- The "Navigation Bar" component has been translated into a JSX react component.
+
+# CSFS1010-Assignment-2
+- Add a document that describes the project structure. Refer to: [Mapping Components](./petstore_ecommerce/mapping_components/)
+- The "Shop Now" button and part of the logic of the search bar will be implemented.
+
 ## Individual Final Project
 
 The Pet Store eCommerce is a platform dedicated to selling products and services for pets.
@@ -21,6 +28,7 @@ This is a website dedicated to selling products and services for pets.
 
 This responsive website is divided into three main elements:
 - Navigation Bar
+  - Search bar
 - Main Window
 - Footer
 
@@ -32,8 +40,12 @@ This section of the website contains the following elements
 - Main shortcuts. These are some of the main actions that a user has access to. When displayed in a Tablet breakpoint, these options should be reorganized so all of them can be properly displayed. When displayed in a Phone breakpoint, these options should be reorganized in a "hamburger menu" so there is enough room on the screen to display all the elements.
 - Shopping Cart. This element works as a link to the user's shopping cart, in other words, this displays the current user's order. When there is at least one element in the cart, the image should be updated to display the number of items in the cart.
 
+#### Search bar.
+ - This element is available only when the navigation bar is displayed.
+ - This element allows the user to search for items in the store. When typing, a drop-down list displays possible matches.
+
 ### Main Window.
-- This is the main screen. This is a dynamic screen that changes based on the user's actions. When this screen works as a home page, it will display a predefined background picture with a main "Shop Now" button. Once the user scrolls down, the following two sections will be displayed: "Featured Items", and "Deals by pet". When displayed in a Tablet/Phone breakpoint, these options should be reorganized so that all the elements can be properly displayed.
+- This is the main screen. This is a dynamic screen that changes based on the user's actions. When this screen works as a home page, it will display a predefined background picture with a main "Shop Now" button. When clicking on this button, the page will automatically scroll down to the following two sections: "Featured Items", and "Deals by pet". When displayed in a Tablet/Phone breakpoint, these options should be reorganized so that all the elements can be properly displayed.
 
 ### Footer.
 This section of the website contains the following elements:
@@ -45,3 +57,4 @@ When displayed in a Tablet/Phone breakpoint, these options should be reorganized
 - Copyright Section. Displays the copyright in the bottom left, and some credit card payment options in the bottom right.
 
 # For assignment 1, the "Navigation Bar" component will be translated into a JSX react component.
+# For assignment 2, the "Shop Now" button and part of the logic of the search bar will be implemented. In addition, a document mapping all the application components will be provided.
